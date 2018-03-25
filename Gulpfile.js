@@ -5,7 +5,7 @@ const rename = require('gulp-rename')
 
 gulp.task('build-grid', function () {
   const outputConfigs = {
-    src: './src/build-grid/_all.scss',
+    src: './src/build-grid/*',
     prefix: 'bts.',
     basename: 'full'
   }
