@@ -18,9 +18,9 @@
   }
 </style> -->
 
-<center>
+<p align="center">
   <img src="https://res.cloudinary.com/teepublic/image/private/s--_8nZriQL--/t_Preview/b_rgb:ffffff,c_limit,f_jpg,h_630,q_90,w_630/v1510790884/production/designs/2061413_1.jpg">
-</center>
+</p>
 
 # BTS css framework
 
@@ -37,11 +37,11 @@ TODO: Not Available!
 
 ## Installation
 
-TODO: Describe the installation process
+TODO: comming soon!
 
 ## Usage
 
-TODO: Write usage instructions
+TODO: comming soon!
 
 ## Contributing
 
