@@ -12,20 +12,40 @@
             font-family: monospace;
             padding: 0;
             margin: 0;
-            background: gold;
+            background: -moz-linear-gradient(left, rgba(5,255,109,1) 0%, rgba(192,186,227,1) 0%, rgba(201,184,228,1) 16%, rgba(224,179,230,1) 56%, rgba(247,171,228,1) 94%, rgba(247,171,228,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(5,255,109,1)), color-stop(0%, rgba(192,186,227,1)), color-stop(16%, rgba(201,184,228,1)), color-stop(56%, rgba(224,179,230,1)), color-stop(94%, rgba(247,171,228,1)), color-stop(100%, rgba(247,171,228,1)));
+            background: -webkit-linear-gradient(left, rgba(5,255,109,1) 0%, rgba(192,186,227,1) 0%, rgba(201,184,228,1) 16%, rgba(224,179,230,1) 56%, rgba(247,171,228,1) 94%, rgba(247,171,228,1) 100%);
+            background: -o-linear-gradient(left, rgba(5,255,109,1) 0%, rgba(192,186,227,1) 0%, rgba(201,184,228,1) 16%, rgba(224,179,230,1) 56%, rgba(247,171,228,1) 94%, rgba(247,171,228,1) 100%);
+            background: -ms-linear-gradient(left, rgba(5,255,109,1) 0%, rgba(192,186,227,1) 0%, rgba(201,184,228,1) 16%, rgba(224,179,230,1) 56%, rgba(247,171,228,1) 94%, rgba(247,171,228,1) 100%);
+            background: linear-gradient(to right, rgba(5,255,109,1) 0%, rgba(192,186,227,1) 0%, rgba(201,184,228,1) 16%, rgba(224,179,230,1) 56%, rgba(247,171,228,1) 94%, rgba(247,171,228,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05ff6d', endColorstr='#f7abe4', GradientType=1 );
         }
+        /* container */
+        .container {
+            display: flex;
+        }
+        .container:not(:last-child) {
+            margin-bottom: calc(1.5rem - 0.75rem);
+        }
+        .container {
+            margin-left: -0.75rem;
+            margin-right: -0.75rem;
+            margin-top: -0.75rem;
+        }
+        .container:before
+        container:after
         *,
         *:before,
         *:after {
             box-sizing: inherit;
         }
-        .grid {
+        /* .grid {
             width: 100%;
             max-width: 1100px;
             margin: 0 auto;
         }
         .grid:before,
-        .grid:after,
+        .grid:after, */
         .row:before,
         .row:after {
             content: " ";
@@ -93,7 +113,7 @@
 </head>
 
 <body>
-<div class="grid">
+<div class="container">
     <div class="row">
 
         <div class="col-wd-12">
