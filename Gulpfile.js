@@ -3,9 +3,9 @@ const sass = require('gulp-sass')
 const autoprefixer = require('gulp-autoprefixer')
 const rename = require('gulp-rename')
 
-gulp.task('build-grid', function () {
+gulp.task('build-bts', function () {
   const outputConfigs = {
-    src: './src/build-grid/*',
+    src: './src/bts.sass',
     prefix: 'bts.',
     basename: 'full'
   }
