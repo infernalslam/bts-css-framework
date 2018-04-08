@@ -7,10 +7,55 @@
   <title>BTS base on bulma</title>
 </head>
 <body>
+  <style media="screen">
+    .box {
+      display: block;
+      padding: 1.25rem;
+      background: #f9f9f9;
+    }
+    .box-has-radius {
+      display: block;
+      padding: 1.25rem;
+      background: #f9f9f9;
+      border-radius: 20px;
+    }
+    .media {
+      display: flex;
+      text-align: left;
+    }
+    .media-content {
+      flex-basis: auto;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-negative: 1;
+      flex-shrink: 1;
+      text-align: left;
+    }
+    .title-text {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  </style>
   <div class="container">
     <div class="columns">
       <div class="column">1</div>
-      <div class="column">2</div>
+      <div class="column">
+        <div class="box-has-radius">
+            <div class="media">
+              <div class="media-content">
+                John Smith @johnsmith 31m
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+                Aenean efficitur sit amet massa fringilla egestas.
+                Nullam condimentum luctus turpis.
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="column">3</div>
     </div>
   </div>
 
