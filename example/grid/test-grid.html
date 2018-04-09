@@ -44,6 +44,12 @@
     	display:inline-block;
     	cursor:pointer;
     	color:#000;
+      /* padding-bottom: calc(.375em - 1px);
+      padding-left: .75em;
+      padding-right: .75em;
+      padding-top: calc(.375em - 1px); */
+      text-align: center;
+      /* white-space: nowrap; */
     	padding:16px 31px;
     	text-decoration:none;
     }
@@ -54,7 +60,36 @@
       position:relative;
       top:1px;
     }
+    .button.is-full {
+      width: 100%;
+    }
     /* button */
+    /* color */
+    .button.is-primary {
+      background-color: #08f7d4;
+    }
+    .button.is-primary:hover {
+      background-color: #00d1b2;
+    }
+    .button.is-info {
+      background-color: #24a3f7;
+    }
+    .button.is-info:hover {
+      background-color: #209cee;
+    }
+    .button.is-warning {
+      background-color: #ffdd57;
+    }
+    .button.is-warning:hover {
+      background-color: ##ffdd57;
+    }
+    .button.is-danger {
+      background-color: #ff3860;
+    }
+    .button.is-danger:hover {
+      background-color: #ff3860;
+    }
+    /* color */
   </style>
   <div class="container">
     <div class="columns">
@@ -73,9 +108,14 @@
         </div>
       </div>
       <div class="column">
-        <button class="button">Button</button>
-        <input class="button" type="submit" value="Submit input">
-        <input class="button" type="reset" value="Reset input">
+        <button class="button">default</button>
+        <button class="button is-primary">Primary</button>
+        <input class="button is-info" type="submit" value="is-info">
+        <input class="button is-warning" type="reset" value="is-warning">
+          <button class="button is-danger">Danger</button>
+      </div>
+      <div class="column">
+        <button class="button is-full">Full size</button>
       </div>
     </div>
   </div>

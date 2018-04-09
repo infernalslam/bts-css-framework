@@ -3,25 +3,48 @@
 </p>
 
 # BTS css framework
+Grid: Available Work!
+- [x] Grid Layout
+- [x] Tiles
 
-TODO: Not Available!
+Element:
 - [x] Grid css
-- [ ] Container
-- [ ] Document
-- [ ] Color
-- [ ] Layout
-- [ ] Footer
-- [ ] Tiles
-- [ ] Form
-- [ ] Box / Cards
+- [x] Container
+- [x] Box
+- [x] Button
+- [ ] Table
+- [ ] Icons
+- [ ] Images
+- [ ] Notifications
+- [ ] Progress bars
+- [ ] Titles
+
+Components:
+- [ ] Navbar
+- [ ] Modal
+- [ ] Pagination
+- [ ] Side Menu
+
+Form:
+- [ ] Input
+- [ ] Textarea
+- [ ] Select
+- [ ] Checkbox
+- [ ] Radio
+- [ ] File upload
+
+## build project
+```
+$ npm run build-bts
+```
 
 ## Installation
 
-TODO: comming soon!
+TODO: coming soon!
 
 ## Usage
 
-TODO: comming soon!
+TODO: coming soon!
 
 ## Contributing
 
@@ -31,14 +54,7 @@ TODO: comming soon!
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
 
 ## Credits
 
-TODO: Write credits
-
-## License
-
-TODO: Write license
+base on bulma.io
