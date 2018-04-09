@@ -33,7 +33,7 @@ Form:
 - [ ] Radio
 - [ ] File upload
 
-## build project
+## Build project
 ```
 $ npm run build-bts
 ```
