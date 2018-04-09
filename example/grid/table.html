@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BTS CSS Framework</title>
+</head>
+<body>
+    <style>
+        .wrap {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .cell {
+            display: table-cell;
+            height: 3rem;
+            vertical-align: middle;
+        }
+        .description {
+            background-color: #ccc;
+            width: 80%;
+        }
+        .add {
+            background-color: gold;
+            width: 10%;
+            text-align: center;
+        }
+        .remove {
+            background-color: red;
+            width: 10%;
+            text-align: center;
+        }
+    </style>
+    <div class="wrap">
+        <div class="cell description">Item Description</div>
+        <div class="cell description">Item Description</div>
+        <div class="cell description">Item Description</div>
+        <div class="cell description">Item Description</div>
+        <div class="cell add">Add</div>
+        <div class="cell remove">Remove</div>
+    </div>
+</body>
+</html>
