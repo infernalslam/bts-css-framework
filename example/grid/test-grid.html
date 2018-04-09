@@ -8,101 +8,26 @@
 </head>
 <body>
   <style media="screen">
-    .box {
-      display: block;
-      padding: 1.25rem;
-      background: #f9f9f9;
-    }
-    .box-has-radius {
-      display: block;
-      padding: 1.25rem;
-      background: #f9f9f9;
-      border-radius: 20px;
-    }
-    .media {
-      display: flex;
-      text-align: left;
-    }
-    .media-content {
-      flex-basis: auto;
-      -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-      flex-grow: 1;
-      -ms-flex-negative: 1;
-      flex-shrink: 1;
-      text-align: left;
-    }
-    .title-text {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: left;
-      margin-bottom: 10px;
-    }
-    /* button */
-    .button {
-    	border:1px solid #f9f9f9;
-    	display:inline-block;
-    	cursor:pointer;
-    	color:#000;
-      text-align: center;
-    	padding:16px 31px;
-    	text-decoration:none;
-    }
-    .button:hover {
-      background-color:#f9f9f9;
-    }
-    .button:active {
-      position:relative;
-      top:1px;
-    }
-    .button.is-full {
-      width: 100%;
-    }
-    /* button */
-    /* color */
-    .button.is-primary {
-      background-color: #08f7d4;
-    }
-    .button.is-primary:hover {
-      background-color: #00d1b2;
-    }
-    .button.is-info {
-      background-color: #24a3f7;
-    }
-    .button.is-info:hover {
-      background-color: #209cee;
-    }
-    .button.is-warning {
-      background-color: #ffdd57;
-    }
-    .button.is-warning:hover {
-      background-color: ##ffdd57;
-    }
-    .button.is-danger {
-      background-color: #ff3860;
-    }
-    .button.is-danger:hover {
-      background-color: #ff3860;
-    }
-    /* color */
   </style>
+
   <div class="container">
     <div class="columns">
-      <div class="column">1</div>
+      <div class="column"><b>Road Map</b></div>
+    </div>
+    <div class="columns">
+      <div class="column"><b>columns and column</b></div>
       <div class="column">
+        <b>This is box</b>
         <div class="box-has-radius">
             <div class="media">
               <div class="media-content">
-                John Smith @johnsmith 31m
-                Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-                Aenean efficitur sit amet massa fringilla egestas.
-                Nullam condimentum luctus turpis.
+                BTS is currently nominated for Best Male Group, Best Dance, Best Music Video, Song of the Year and Album of the Year for the Mnet Asian Music Awards (MAMAs). You can vote for them here.
               </div>
             </div>
         </div>
       </div>
       <div class="column">
+        <b>Button</b> <br>
         <button class="button">default</button>
         <button class="button is-primary">Primary</button>
         <input class="button is-info" type="submit" value="is-info">
@@ -110,7 +35,12 @@
           <button class="button is-danger">Danger</button>
       </div>
       <div class="column">
+        <b>button full size</b>
         <button class="button is-full">Full size</button>
+        <button class="button is-full is-primary">Full size is-primary</button>
+        <button class="button is-full is-info">Full size is-info</button>
+        <button class="button is-full is-warning">Full size is-warning</button>
+        <button class="button is-full is-danger">Full size is-danger</button>
       </div>
     </div>
   </div>
