@@ -53,7 +53,14 @@ TODO: coming soon!
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+6. Please update File ./example/roadMap/index.html about you made it!
+7. I hate yarn ok! Plz use npm Installation
 
+## Preview Road Map
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dswcocz3f/image/upload/v1523361004/Screen_Shot_2561-04-10_at_18.45.39_qwuhcf.png">
+</p>
 
 ## Credits
 
