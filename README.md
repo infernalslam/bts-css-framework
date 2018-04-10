@@ -35,6 +35,7 @@ Form:
 
 ## Build project
 ```
+$ npm i or npm install
 $ npm run build-bts
 ```
 
