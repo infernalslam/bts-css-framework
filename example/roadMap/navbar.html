@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>navbar</title>
+  </head>
+  <body>
+
+
+    <div class="navbar">
+      <div class="navbar-container">
+
+        <div class="navbar-left">
+          <a href="#">Logo</a>
+          <a href="#">Home</a>
+          <a href="#">Docs</a>
+          <a href="#">APIs</a>
+        </div>
+
+        <div class="navbar-right">
+          <a href="#">Github</a>
+          <a href="#">Donate</a>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- navber css -->
+    <style media="screen">
+
+      body {
+        margin: 0;
+      }
+
+      .navbar {
+        background-color: #9e9bf9;
+      }
+
+      .navbar-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar-left {
+        display: flex;
+      }
+      .navbar-right {
+        display: flex;
+      }
+      .navbar a {
+        display: block;
+        text-decoration: none;
+        color: rgba(255,255,255,0.8);
+        padding: 15px 25px;
+      }
+
+      .navbar a:hover {
+        color: rgba(255,255,255,0.8);
+        background-color: #7e7af6;
+      }
+
+      @media (max-width: 800px) {
+        .navbar-container {
+          width: 100%;
+          flex-direction: column;
+        }
+        .navbar-left {
+          flex-direction: column;
+        }
+        .navbar-right {
+          flex-direction: column;
+        }
+
+      }
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
