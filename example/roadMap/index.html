@@ -29,20 +29,69 @@
         <b>Button</b> <br>
         <button class="button">default</button>
         <button class="button is-primary">Primary</button>
-        <input class="button is-info" type="submit" value="is-info">
-        <input class="button is-warning" type="reset" value="is-warning">
-          <button class="button is-danger">Danger</button>
       </div>
+    </div>
+    Form <br><br>
+    <div class="columns">
       <div class="column">
-        <b>Button full size</b>
-        <button class="button is-full">Full size</button>
-        <button class="button is-full is-primary">Full size is-primary</button>
-        <button class="button is-full is-info">Full size is-info</button>
-        <button class="button is-full is-warning">Full size is-warning</button>
-        <button class="button is-full is-danger">Full size is-danger</button>
+        <input type="radio" class="radio"> Option A
+        <input type="radio" class="radio"> Option B
+        <br>
+        <input type="checkbox" class="checkbox"> Option D
+        <br>
+        <input type="text" class="input">
       </div>
     </div>
   </div>
+
+  <style media="screen">
+    .radio {
+      color: #606266;
+      font-weight: 500;
+      line-height: 1;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      white-space: nowrap;
+      outline: none;
+      font-size: 14px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+    }
+    .checkbox {
+      color: #606266;
+      font-weight: 500;
+      font-size: 14px;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      white-space: nowrap;
+      user-select: none;
+    }
+    .input {
+      -webkit-appearance: none;
+      background-color: #fff;
+      background-image: none;
+      border-radius: 4px;
+      border: 1px solid #dcdfe6;
+      box-sizing: border-box;
+      color: #606266;
+      display: inline-block;
+      font-size: inherit;
+      height: 40px;
+      line-height: 40px;
+      outline: none;
+      padding: 0 15px;
+      transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+      width: 100%;
+    }
+    .input:focus {
+      outline: none;
+      border-color: #409eff;
+    }
+  </style>
+
 
 </body>
 </html>

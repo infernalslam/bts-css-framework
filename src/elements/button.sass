@@ -1,31 +1,26 @@
 .button
-  border: 1px solid #f9f9f9
   display: inline-block
+  line-height: 1
+  white-space: nowrap
   cursor: pointer
-  color: #000
+  background: #fff
+  border: 1px solid #dcdfe6
+  border-color: #dcdfe6
+  color: #606266
+  -webkit-appearance: none
   text-align: center
-  padding: 16px 31px
-  text-decoration: none
-  &:hover
-    background-color: #f9f9f9
-  &:active
-    position: relative
-    top: 1px
-  &.is-full
-    width: 100%
+  box-sizing: border-box
+  outline: none
+  margin: 0
+  transition: .1s
+  font-weight: 500
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  padding: 12px 20px
+  font-size: 14px
+  border-radius: 4px
   &.is-primary
-    background-color: #08f7d4
-    &:hover
-      background-color: #00d1b2
-  &.is-info
-    background-color: #24a3f7
-    &:hover
-      background-color: #209cee
-  &.is-warning
-    background-color: #ffdd57
-    &:hover
-      background-color: #ffdd57
-  &.is-danger
-    background-color: #ff3860
-    &:hover
-      background-color: #ff3860
+    color: #fff
+    background-color: #409eff
+    border-color: #409eff
