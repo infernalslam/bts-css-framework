@@ -138,6 +138,32 @@
       font-size: 1rem;
       position: relative;
       text-align: left;
-  }
-    /* input box */
+	}
+	.is-radiusless {
+		border-radius: 0!important;
+	}
+	.input-line-style {
+		box-shadow: unset!important;
+	}
+		/* input box */
+		
+	/* checkbox */
+	.item-center {
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.checkbox.active {
+		border: 1px solid #00b900;
+		background: #00b900;
+	}
+	.checkbox {
+		width: 22px;
+		height: 20px;
+		border: 1px solid transparent;
+		background-color: rgba(204, 204, 204, 0.549);
+		cursor: pointer;
+		border-radius: 100%;
+	}
+		/* checkbox */
 
