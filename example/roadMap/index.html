@@ -42,9 +42,77 @@
         <input type="text" class="input">
       </div>
     </div>
+    <div class="columns">
+      <div class="column">
+        <div class="field">
+          <label class="label">Input</label>
+          <div class="control">
+            <span class="icon is-small is-left"> <i class="mdi mdi-facebook"></i></span>
+            <input class="input is-radiusless input-line-style " type="text" placeholder="example">
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="columns is-grap-bottom">
+            <div class="column">
+              <div class="field-form">
+                <label class="label">ชื่อ-นามสกุล ผู้สมัคร</label>
+                <div class="field has-addons">
+                  <p class="control">
+                    <span class="select">
+                      <select>
+                        <option value="นาย" selected>นาย</option>
+                        <option value="นาง">นาง</option>
+                        <option value="นางสาว">นางสาว</option>
+                      </select>
+                    </span>
+                  </p>
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="ชื่อ">
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-clear">
+              <div class="field-form">
+                <div class="control is-expanded">
+                  <input
+                    class="input"
+                    type="text"
+                    name="surName"
+                    placeholder="นามสกุล">
+                </div>
+              </div>
+            </div>
+          </div>
   </div>
 
   <style media="screen">
+
+    /* input box */
+    .is-grap-bottom {
+      margin-bottom: 20px !important;
+    }
+    .field.has-addons {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .is-expanded {
+      flex-grow: 1;
+    }
+    .control {
+      font-size: 1rem;
+      position: relative;
+      text-align: left;
+  }
+    /* input box */
+    .is-radiusless {
+      border-radius: 0!important;
+    }
+    .input-line-style {
+      box-shadow: unset!important;
+    }
     .radio {
       color: #606266;
       font-weight: 500;
