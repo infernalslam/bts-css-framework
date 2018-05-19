@@ -121,3 +121,23 @@
 
 /* set package plan */
 
+
+
+    /* input box */
+    .is-grap-bottom {
+      margin-bottom: 20px !important;
+    }
+    .field.has-addons {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .is-expanded {
+      flex-grow: 1;
+    }
+    .control {
+      font-size: 1rem;
+      position: relative;
+      text-align: left;
+  }
+    /* input box */
+
